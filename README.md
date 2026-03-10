@@ -38,6 +38,14 @@ pnpm add @colelab/icons-react
 pnpm add @colelab/icons-svg
 ```
 
+
+
+## 📚 在线文档
+
+- 文档入口：`https://cole0307mail-debug.github.io/colelab-icons/`
+- Vue 文档：`https://cole0307mail-debug.github.io/colelab-icons/vue/`
+- React 文档：`https://cole0307mail-debug.github.io/colelab-icons/react/`
+
 ## 🤝 本地开发
 
 ```bash
