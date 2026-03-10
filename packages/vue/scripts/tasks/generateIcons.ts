@@ -14,7 +14,7 @@ export const generateIcons = ({ iconDir, iconDefs, template, mapToInterpolate }:
   function GenerateIcons() {
     const icons = Object.keys(iconDefs).sort();
 
-    fsExtra.ensureDir(iconDir);
+    fsExtra.ensureDirSync(iconDir);
 
     icons.forEach((icon) => {
       fsExtra.writeFileSync(path.join(iconDir, `${icon}.ts`), '');
