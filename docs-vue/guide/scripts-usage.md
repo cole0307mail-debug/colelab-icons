@@ -19,7 +19,7 @@
 
 | 命令 | 作用 | 何时使用 |
 |---|---|---|
-| `pnpm generate` | 全量生成（core/react/vue） | 推荐默认，保证三端产物同步 |
+| `pnpm generate` | 先执行 `bootstrap`（core 生成+构建），再全量生成（core/react/vue） | 推荐默认，保证依赖就绪与三端产物同步 |
 | `pnpm generate:core` | 仅生成 icons-svg | 改了 `packages/core/svg` 时先跑 |
 | `pnpm generate:react` | 仅生成 React 图标层 | 只改 React 模板或 React 适配层 |
 | `pnpm generate:vue` | 仅生成 Vue 图标层 | 只改 Vue 模板或 Vue 适配层 |
@@ -30,6 +30,8 @@
 | `pnpm site` | 构建 React + Vue 文档站 | 发布前统一构建文档 |
 | `pnpm site:react` | 构建 React 文档站 | 只发布/检查 React 文档 |
 | `pnpm site:vue` | 构建 Vue 文档站 | 只发布/检查 Vue 文档 |
+| `pnpm clean:generate` | 清理 generate 产物目录 | 回到“未生成”干净状态，排查产物脏数据 |
+| `pnpm clean:build` | 清理 build/site 产物目录 | 回到“未构建”干净状态，验证构建可复现 |
 
 ---
 
@@ -85,7 +87,7 @@ pnpm release:ship
 
 1. 改了 `packages/core/svg` 后，建议使用全量 `generate/build`，确保 React/Vue 同步。
 2. `pnpm publish --recursive --tag latest` 会发布所有可发布子包，请在 `release:check` 通过后再执行。
-3. 若需清理依赖可使用 `pnpm clean`，但这是重操作（会删除所有子包 `node_modules`）。
+3. 清理产物优先使用 `pnpm clean:generate` / `pnpm clean:build`；`pnpm clean` 会删除所有子包 `node_modules`，属于重操作。
 
 
 
@@ -155,3 +157,19 @@ pnpm release:ship
 - 部署聚合目录：`deploy-dist`
 
 > 说明：`cache/dist/es/lib` 等构建产物目录不建议提交到 Git 仓库。
+
+
+### 清理命令对应目录
+
+- `pnpm clean:generate` 会删除：
+  - `packages/core/src`
+  - `packages/core/inline-svg`
+  - `packages/core/inline-namespaced-svg`
+  - `packages/react/src/icons`
+  - `packages/vue/src/icons`
+
+- `pnpm clean:build` 会删除：
+  - `packages/core/es`, `packages/core/lib`
+  - `packages/react/es`, `packages/react/lib`
+  - `packages/vue/es`, `packages/vue/lib`
+  - `dist`, `docs-vue/.vitepress/dist`, `deploy-dist`
