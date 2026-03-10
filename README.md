@@ -62,7 +62,7 @@ pnpm start:vue      # 仅 Vue 文档（vitepress）
 ### 生成与构建
 
 ```bash
-pnpm generate       # 全量生成（core/react/vue）
+pnpm generate       # 先 bootstrap，再全量生成（core/react/vue）
 pnpm build          # 先 core，再并行 react+vue
 pnpm site           # 构建两套文档站
 ```

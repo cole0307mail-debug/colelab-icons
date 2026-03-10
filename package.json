@@ -9,7 +9,7 @@
     "site": "pnpm site:react && pnpm site:vue",
     "preview": "concurrently -n react,vue -c cyan,magenta \"pnpm preview:react\" \"pnpm preview:vue\"",
     "clean": "rimraf ./**/node_modules",
-    "generate": "pnpm -r --workspace-concurrency=1 run generate",
+    "generate": "pnpm bootstrap && pnpm -r --workspace-concurrency=1 run generate",
     "generate:core": "pnpm -r --filter @colelab/icons-svg run generate",
     "build:core": "pnpm -r --filter @colelab/icons-svg run build",
     "release:version": "lerna version --conventional-commits --yes --no-private",
