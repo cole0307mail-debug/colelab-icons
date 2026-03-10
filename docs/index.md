@@ -6,6 +6,8 @@ hero:
   actions:
     - text: 快速开始
       link: /docs/getting-started
+    - text: Vue 文档
+      link: http://localhost:5173/
 footer: Open-source MIT Licensed | Copyright © 2020-present
 ---
 

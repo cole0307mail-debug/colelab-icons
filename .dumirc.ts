@@ -22,7 +22,7 @@ export default defineConfig({
   themeConfig: {
     name: 'Icons',
     logo,
-    navs: [
+    nav: [
       { title: 'Vue 文档', link: VUE_DOCS },
       { title: 'React 文档', link: REACT_DOCS },
     ],
