@@ -120,3 +120,28 @@ nvm use 20
 - `release.yml`：发布 npm 包（OIDC Trusted Publishing）
 
 > 记忆口诀：`deploy` 发文档，`release` 发包。
+
+
+## 📁 常见产物目录速查
+
+### `pnpm generate` 产物
+
+- `packages/core/src`
+- `packages/core/inline-svg`
+- `packages/core/inline-namespaced-svg`
+- `packages/react/src/icons`
+- `packages/vue/src/icons`
+
+### `pnpm build` 产物
+
+- `packages/core/es`, `packages/core/lib`
+- `packages/react/es`, `packages/react/lib`
+- `packages/vue/es`, `packages/vue/lib`
+
+### 文档构建产物
+
+- React 文档：`dist`
+- Vue 文档：`docs-vue/.vitepress/dist`
+- 部署聚合目录：`deploy-dist`
+
+> 提示：缓存和构建产物目录不应提交到 Git。

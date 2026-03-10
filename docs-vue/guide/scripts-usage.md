@@ -115,3 +115,43 @@ pnpm release:ship
 
 - `deploy.yml` = **发文档**
 - `release.yml` = **发包**
+
+
+---
+
+## 八、命令产物目录说明（Generate / Build）
+
+### `pnpm generate` 会生成的目录
+
+1. `generate:core`（`@colelab/icons-svg`）
+   - `packages/core/src`
+   - `packages/core/inline-svg`
+   - `packages/core/inline-namespaced-svg`
+
+2. `generate:react`（`@colelab/icons-react`）
+   - `packages/react/src/icons`
+
+3. `generate:vue`（`@colelab/icons-vue`）
+   - `packages/vue/src/icons`
+
+### `pnpm build` 会生成的目录
+
+1. `build:core`
+   - `packages/core/es`
+   - `packages/core/lib`
+
+2. `build:react`
+   - `packages/react/es`
+   - `packages/react/lib`
+
+3. `build:vue`
+   - `packages/vue/es`
+   - `packages/vue/lib`
+
+### 文档构建相关目录（补充）
+
+- `pnpm site:react` 产物：`dist`
+- `pnpm site:vue` 产物：`docs-vue/.vitepress/dist`
+- 部署聚合目录：`deploy-dist`
+
+> 说明：`cache/dist/es/lib` 等构建产物目录不建议提交到 Git 仓库。
