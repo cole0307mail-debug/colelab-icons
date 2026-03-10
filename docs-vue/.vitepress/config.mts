@@ -6,7 +6,7 @@ const REACT_DOCS = isProd ? '/colelab-icons/react/' : 'http://localhost:8001/';
 
 export default defineConfig({
   appearance: true,
-  base: '/colelab-icons/vue/',
+  base: isProd ? '/colelab-icons/vue/' : '/',
   title: 'Cole Icons',
   description: 'Icon docs for Vue/React',
   themeConfig: {
