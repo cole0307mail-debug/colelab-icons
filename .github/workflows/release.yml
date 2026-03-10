@@ -1,0 +1,56 @@
+name: Release to npm (OIDC)
+
+on:
+  workflow_dispatch:
+    inputs:
+      runVersion:
+        description: 'Run release:version before publish'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: npm-publish
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.6.5
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Pre-check
+        run: pnpm release:check
+
+      - name: Version (optional)
+        if: ${{ github.event.inputs.runVersion == 'true' }}
+        run: pnpm release:version
+
+      - name: Re-check after version bump
+        if: ${{ github.event.inputs.runVersion == 'true' }}
+        run: pnpm build && pnpm test
+
+      - name: Publish (OIDC)
+        run: pnpm publish --recursive --tag latest --publish-branch ${{ github.ref_name }}
