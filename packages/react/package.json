@@ -1,6 +1,6 @@
 {
   "name": "@colelab/icons-react",
-  "version": "2.100.0",
+  "version": "1.0.0",
   "description": "Abstract nodes for sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "generate": "tsx ./scripts/generate.ts",
     "build:clean": "tsx ./scripts/buildClean.ts",
-    "build": "pnpm run build:clean && father build && tsx ./scripts/build.ts"
+    "build": "pnpm run build:clean && father build"
   },
   "repository": {
     "type": "git",

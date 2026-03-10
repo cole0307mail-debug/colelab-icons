@@ -1,57 +1,73 @@
-name: Deploy CI
+name: Deploy Docs
 
 env:
   NODE_OPTIONS: --max-old-space-size=6144
 
 on:
   push:
-    branches:
-      - master
+    branches: [master, main]
 
 jobs:
-  build-and-deploy:
+  deploy-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout'
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 'Setup Node.js'
-        uses: actions/setup-node@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version-file: '.nvmrc'
 
-      - name: Cache pnpm modules
-        uses: actions/cache@v4
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-
-
-      - name: Install pnpm
+      - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 10.6.5
-          run_install: |
-            - recursive: true
-              args: [--no-frozen-lockfile]
 
-      - name: Bootstrap
-        run: pnpm bootstrap
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
 
-      - name: Generate
-        run: pnpm generate
+      - name: Install
+        run: pnpm install --frozen-lockfile
 
-      - name: Build
-        run: pnpm release:build
+      - name: Generate + Build
+        run: pnpm generate && pnpm build
 
-      - name: Site Build
+      - name: Build docs
         run: pnpm site
 
+      - name: Prepare deploy directory
+        run: |
+          rm -rf deploy-dist
+          mkdir -p deploy-dist/react deploy-dist/vue
+          cp -R dist/. deploy-dist/react/
+          cp -R docs-vue/.vitepress/dist/. deploy-dist/vue/
+          cat > deploy-dist/index.html <<'HTML'
+          <!doctype html>
+          <html>
+            <head>
+              <meta charset="UTF-8" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <title>Cole Icons Docs</title>
+              <style>body{font-family:system-ui;padding:40px}a{display:block;margin:8px 0}</style>
+            </head>
+            <body>
+              <h1>Cole Icons Docs</h1>
+              <a href="./vue/">Vue Docs</a>
+              <a href="./react/">React Docs</a>
+            </body>
+          </html>
+          HTML
+
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./deploy-dist
