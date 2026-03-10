@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HeatDownOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HeatDownOutlined';
+import HeatDownOutlinedSvg from '@colelab/icons-svg/es/asn/HeatDownOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HeatDownOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

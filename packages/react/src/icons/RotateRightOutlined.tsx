@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RotateRightOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RotateRightOutlined';
+import RotateRightOutlinedSvg from '@colelab/icons-svg/es/asn/RotateRightOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RotateRightOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

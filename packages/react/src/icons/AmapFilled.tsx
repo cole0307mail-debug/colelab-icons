@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AmapFilledSvg from '@sensoro-design/icons-svg/es/asn/AmapFilled';
+import AmapFilledSvg from '@colelab/icons-svg/es/asn/AmapFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AmapFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

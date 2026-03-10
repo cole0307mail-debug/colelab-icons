@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LicensePlateOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LicensePlateOutlined';
+import LicensePlateOutlinedSvg from '@colelab/icons-svg/es/asn/LicensePlateOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LicensePlateOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ArrowSquareStartFilledSvg from '@sensoro-design/icons-svg/es/asn/ArrowSquareStartFilled';
+import ArrowSquareStartFilledSvg from '@colelab/icons-svg/es/asn/ArrowSquareStartFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ArrowSquareStartFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

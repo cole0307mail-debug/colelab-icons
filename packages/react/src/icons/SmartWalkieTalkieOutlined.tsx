@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmartWalkieTalkieOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SmartWalkieTalkieOutlined';
+import SmartWalkieTalkieOutlinedSvg from '@colelab/icons-svg/es/asn/SmartWalkieTalkieOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmartWalkieTalkieOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

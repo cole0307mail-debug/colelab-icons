@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PetDogOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PetDogOutlined';
+import PetDogOutlinedSvg from '@colelab/icons-svg/es/asn/PetDogOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PetDogOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

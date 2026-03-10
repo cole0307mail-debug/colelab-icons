@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon, * as SenIcons from '@sensoro-design/icons';
+import Icon, * as SenIcons from '@colelab/icons-react';
 import { Radio, Empty, Affix } from 'antd';
 
 import { Category } from './Category';
@@ -7,7 +7,7 @@ import { categories } from './fields';
 import { FilledIcon, OutlinedIcon, TwoToneIcon } from './ThemeIcons';
 
 import type { RadioGroupProps } from 'antd/es/radio';
-import type { IconComponentProps } from '@sensoro-design/icons/es/components/Icon';
+import type { IconComponentProps } from '@colelab/icons-react/es/components/Icon';
 import type { CategoriesKeys } from './fields';
 
 export enum ThemeType {

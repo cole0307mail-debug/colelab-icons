@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import InclinationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/InclinationOutlined';
+import InclinationOutlinedSvg from '@colelab/icons-svg/es/asn/InclinationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const InclinationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

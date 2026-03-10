@@ -1,17 +1,15 @@
 import React from 'react';
 
-import type { CustomIconComponentProps } from '@sensoro-design/icons/es/components/Icon';
+import type { CustomIconComponentProps } from '@colelab/icons-react/es/components/Icon';
 
 /**
  * 线框
  * @param props
  * @returns
  */
-export const FilledIcon: React.FC<CustomIconComponentProps> = props => {
+export const FilledIcon: React.FC<CustomIconComponentProps> = (props) => {
   const path =
-    'M864 64H160C107 64 64 107 64 160v' +
-    '704c0 53 43 96 96 96h704c53 0 96-43 96-96V16' +
-    '0c0-53-43-96-96-96z';
+    'M864 64H160C107 64 64 107 64 160v' + '704c0 53 43 96 96 96h704c53 0 96-43 96-96V16' + '0c0-53-43-96-96-96z';
 
   return (
     <svg {...props} viewBox="0 0 1024 1024">
@@ -25,7 +23,7 @@ export const FilledIcon: React.FC<CustomIconComponentProps> = props => {
  * @param props
  * @returns
  */
-export const OutlinedIcon: React.FC<CustomIconComponentProps> = props => {
+export const OutlinedIcon: React.FC<CustomIconComponentProps> = (props) => {
   const path =
     'M864 64H160C107 64 64 107 64 160v7' +
     '04c0 53 43 96 96 96h704c53 0 96-43 96-96V160c' +
@@ -45,7 +43,7 @@ export const OutlinedIcon: React.FC<CustomIconComponentProps> = props => {
  * @param props
  * @returns
  */
-export const TwoToneIcon: React.FC<CustomIconComponentProps> = props => {
+export const TwoToneIcon: React.FC<CustomIconComponentProps> = (props) => {
   const path =
     'M16 512c0 273.932 222.066 496 496 49' +
     '6s496-222.068 496-496S785.932 16 512 16 16 238.' +

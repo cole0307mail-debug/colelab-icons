@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ArrowTextStartOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ArrowTextStartOutlined';
+import ArrowTextStartOutlinedSvg from '@colelab/icons-svg/es/asn/ArrowTextStartOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ArrowTextStartOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SerialNumberOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SerialNumberOutlined';
+import SerialNumberOutlinedSvg from '@colelab/icons-svg/es/asn/SerialNumberOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SerialNumberOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

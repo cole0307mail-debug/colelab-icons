@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GithubFilledSvg from '@sensoro-design/icons-svg/es/asn/GithubFilled';
+import GithubFilledSvg from '@colelab/icons-svg/es/asn/GithubFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GithubFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

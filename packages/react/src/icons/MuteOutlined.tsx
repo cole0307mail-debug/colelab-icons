@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MuteOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MuteOutlined';
+import MuteOutlinedSvg from '@colelab/icons-svg/es/asn/MuteOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MuteOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

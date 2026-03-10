@@ -1,7 +1,5 @@
-import { AccountBookFilled } from '@sensoro-design/icons';
+import { AccountBookFilled } from '@colelab/icons-react';
 
 export default () => {
-  return (
-    <AccountBookFilled />
-  )
-}
+  return <AccountBookFilled />;
+};

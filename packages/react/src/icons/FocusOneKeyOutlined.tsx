@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FocusOneKeyOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FocusOneKeyOutlined';
+import FocusOneKeyOutlinedSvg from '@colelab/icons-svg/es/asn/FocusOneKeyOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FocusOneKeyOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

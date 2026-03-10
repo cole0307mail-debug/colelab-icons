@@ -1,4 +1,4 @@
-import { UnitFilled } from '@sensoro-design/icons';
+import { UnitFilled } from '@colelab/icons-react';
 
 export function App() {
   return (

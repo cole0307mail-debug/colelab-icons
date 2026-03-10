@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LegendDashedCaretBoldFilledSvg from '@sensoro-design/icons-svg/es/asn/LegendDashedCaretBoldFilled';
+import LegendDashedCaretBoldFilledSvg from '@colelab/icons-svg/es/asn/LegendDashedCaretBoldFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LegendDashedCaretBoldFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

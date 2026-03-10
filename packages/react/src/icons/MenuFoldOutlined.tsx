@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MenuFoldOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MenuFoldOutlined';
+import MenuFoldOutlinedSvg from '@colelab/icons-svg/es/asn/MenuFoldOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MenuFoldOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

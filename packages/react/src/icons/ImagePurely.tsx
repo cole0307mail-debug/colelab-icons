@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ImagePurelySvg from '@sensoro-design/icons-svg/es/asn/ImagePurely';
+import ImagePurelySvg from '@colelab/icons-svg/es/asn/ImagePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ImagePurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

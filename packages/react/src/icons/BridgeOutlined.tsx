@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BridgeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BridgeOutlined';
+import BridgeOutlinedSvg from '@colelab/icons-svg/es/asn/BridgeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BridgeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

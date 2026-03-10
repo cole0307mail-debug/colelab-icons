@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import IotOutlinedSvg from '@sensoro-design/icons-svg/es/asn/IotOutlined';
+import IotOutlinedSvg from '@colelab/icons-svg/es/asn/IotOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const IotOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SportsFacilitiesOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SportsFacilitiesOutlined';
+import SportsFacilitiesOutlinedSvg from '@colelab/icons-svg/es/asn/SportsFacilitiesOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SportsFacilitiesOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

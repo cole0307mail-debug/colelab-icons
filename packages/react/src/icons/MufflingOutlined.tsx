@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MufflingOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MufflingOutlined';
+import MufflingOutlinedSvg from '@colelab/icons-svg/es/asn/MufflingOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MufflingOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

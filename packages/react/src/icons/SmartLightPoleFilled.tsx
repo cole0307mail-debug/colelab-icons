@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmartLightPoleFilledSvg from '@sensoro-design/icons-svg/es/asn/SmartLightPoleFilled';
+import SmartLightPoleFilledSvg from '@colelab/icons-svg/es/asn/SmartLightPoleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmartLightPoleFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

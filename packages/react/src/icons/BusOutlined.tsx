@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BusOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BusOutlined';
+import BusOutlinedSvg from '@colelab/icons-svg/es/asn/BusOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BusOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

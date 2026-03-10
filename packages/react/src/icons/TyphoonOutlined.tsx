@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import TyphoonOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TyphoonOutlined';
+import TyphoonOutlinedSvg from '@colelab/icons-svg/es/asn/TyphoonOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const TyphoonOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

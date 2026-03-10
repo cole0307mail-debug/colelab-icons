@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import VesselIllegalWorkOutlinedSvg from '@sensoro-design/icons-svg/es/asn/VesselIllegalWorkOutlined';
+import VesselIllegalWorkOutlinedSvg from '@colelab/icons-svg/es/asn/VesselIllegalWorkOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const VesselIllegalWorkOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

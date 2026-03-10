@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MercuryThermometerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MercuryThermometerOutlined';
+import MercuryThermometerOutlinedSvg from '@colelab/icons-svg/es/asn/MercuryThermometerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MercuryThermometerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

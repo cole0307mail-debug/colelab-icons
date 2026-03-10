@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AtlasPurelySvg from '@sensoro-design/icons-svg/es/asn/AtlasPurely';
+import AtlasPurelySvg from '@colelab/icons-svg/es/asn/AtlasPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AtlasPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

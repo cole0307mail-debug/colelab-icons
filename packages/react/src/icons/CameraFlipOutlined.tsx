@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CameraFlipOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CameraFlipOutlined';
+import CameraFlipOutlinedSvg from '@colelab/icons-svg/es/asn/CameraFlipOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CameraFlipOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

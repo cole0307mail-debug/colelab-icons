@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import TheaterOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TheaterOutlined';
+import TheaterOutlinedSvg from '@colelab/icons-svg/es/asn/TheaterOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const TheaterOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

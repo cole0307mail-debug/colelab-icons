@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import TwoSplitScreenOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TwoSplitScreenOutlined';
+import TwoSplitScreenOutlinedSvg from '@colelab/icons-svg/es/asn/TwoSplitScreenOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const TwoSplitScreenOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

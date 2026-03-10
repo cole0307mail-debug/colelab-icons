@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PanoramaTourFilledSvg from '@sensoro-design/icons-svg/es/asn/PanoramaTourFilled';
+import PanoramaTourFilledSvg from '@colelab/icons-svg/es/asn/PanoramaTourFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PanoramaTourFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PlaneFilledSvg from '@sensoro-design/icons-svg/es/asn/PlaneFilled';
+import PlaneFilledSvg from '@colelab/icons-svg/es/asn/PlaneFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PlaneFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

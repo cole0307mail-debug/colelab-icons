@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RoadFilledSvg from '@sensoro-design/icons-svg/es/asn/RoadFilled';
+import RoadFilledSvg from '@colelab/icons-svg/es/asn/RoadFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RoadFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

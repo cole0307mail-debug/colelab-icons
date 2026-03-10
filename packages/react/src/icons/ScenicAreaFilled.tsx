@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ScenicAreaFilledSvg from '@sensoro-design/icons-svg/es/asn/ScenicAreaFilled';
+import ScenicAreaFilledSvg from '@colelab/icons-svg/es/asn/ScenicAreaFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ScenicAreaFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

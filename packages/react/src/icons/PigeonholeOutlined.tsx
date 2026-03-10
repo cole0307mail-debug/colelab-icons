@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PigeonholeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PigeonholeOutlined';
+import PigeonholeOutlinedSvg from '@colelab/icons-svg/es/asn/PigeonholeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PigeonholeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

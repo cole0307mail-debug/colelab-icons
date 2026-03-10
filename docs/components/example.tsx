@@ -1,6 +1,6 @@
 import React from 'react';
 import { Space } from 'antd';
-import { AccountBookFilled, AccountBookOutlined, } from '@sensoro-design/icons';
+import { AccountBookFilled, AccountBookOutlined } from '@colelab/icons-react';
 
 export default () => {
   return (
@@ -8,5 +8,5 @@ export default () => {
       <AccountBookFilled />
       <AccountBookOutlined spin />
     </Space>
-  )
-}
+  );
+};

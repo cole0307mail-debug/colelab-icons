@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MinusSquareOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MinusSquareOutlined';
+import MinusSquareOutlinedSvg from '@colelab/icons-svg/es/asn/MinusSquareOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MinusSquareOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

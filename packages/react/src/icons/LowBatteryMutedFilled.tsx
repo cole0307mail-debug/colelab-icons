@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LowBatteryMutedFilledSvg from '@sensoro-design/icons-svg/es/asn/LowBatteryMutedFilled';
+import LowBatteryMutedFilledSvg from '@colelab/icons-svg/es/asn/LowBatteryMutedFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LowBatteryMutedFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

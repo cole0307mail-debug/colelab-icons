@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DeviceCenterPurelySvg from '@sensoro-design/icons-svg/es/asn/DeviceCenterPurely';
+import DeviceCenterPurelySvg from '@colelab/icons-svg/es/asn/DeviceCenterPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DeviceCenterPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

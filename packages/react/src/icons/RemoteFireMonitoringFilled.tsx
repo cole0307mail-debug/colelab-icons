@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RemoteFireMonitoringFilledSvg from '@sensoro-design/icons-svg/es/asn/RemoteFireMonitoringFilled';
+import RemoteFireMonitoringFilledSvg from '@colelab/icons-svg/es/asn/RemoteFireMonitoringFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RemoteFireMonitoringFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

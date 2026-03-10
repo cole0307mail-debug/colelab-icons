@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BigScreenOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BigScreenOutlined';
+import BigScreenOutlinedSvg from '@colelab/icons-svg/es/asn/BigScreenOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BigScreenOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

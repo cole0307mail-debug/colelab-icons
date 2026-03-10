@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SafetyKeyOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SafetyKeyOutlined';
+import SafetyKeyOutlinedSvg from '@colelab/icons-svg/es/asn/SafetyKeyOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SafetyKeyOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

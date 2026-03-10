@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GimbalBackCenterWhitePurelySvg from '@sensoro-design/icons-svg/es/asn/GimbalBackCenterWhitePurely';
+import GimbalBackCenterWhitePurelySvg from '@colelab/icons-svg/es/asn/GimbalBackCenterWhitePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GimbalBackCenterWhitePurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

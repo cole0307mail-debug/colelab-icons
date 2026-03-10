@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import TextAutoHeightOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TextAutoHeightOutlined';
+import TextAutoHeightOutlinedSvg from '@colelab/icons-svg/es/asn/TextAutoHeightOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const TextAutoHeightOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import YuntaiOutlinedSvg from '@sensoro-design/icons-svg/es/asn/YuntaiOutlined';
+import YuntaiOutlinedSvg from '@colelab/icons-svg/es/asn/YuntaiOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const YuntaiOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

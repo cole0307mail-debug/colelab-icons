@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DrawRoundOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DrawRoundOutlined';
+import DrawRoundOutlinedSvg from '@colelab/icons-svg/es/asn/DrawRoundOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DrawRoundOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

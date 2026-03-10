@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AppstoreFilledSvg from '@sensoro-design/icons-svg/es/asn/AppstoreFilled';
+import AppstoreFilledSvg from '@colelab/icons-svg/es/asn/AppstoreFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AppstoreFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

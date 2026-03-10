@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FastForward30SOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FastForward30SOutlined';
+import FastForward30SOutlinedSvg from '@colelab/icons-svg/es/asn/FastForward30SOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FastForward30SOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

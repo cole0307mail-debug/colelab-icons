@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HexagonOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HexagonOutlined';
+import HexagonOutlinedSvg from '@colelab/icons-svg/es/asn/HexagonOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HexagonOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

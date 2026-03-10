@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RetrieveHumanoidOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RetrieveHumanoidOutlined';
+import RetrieveHumanoidOutlinedSvg from '@colelab/icons-svg/es/asn/RetrieveHumanoidOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RetrieveHumanoidOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

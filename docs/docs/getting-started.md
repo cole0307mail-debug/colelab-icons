@@ -11,7 +11,7 @@ nav:
 
 ```sh
 # React
-pnpm i @sensoro-design/icons
+pnpm i @colelab/icons-react
 ```
 
 ### 在项目中使用

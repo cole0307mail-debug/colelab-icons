@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FileTimeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FileTimeOutlined';
+import FileTimeOutlinedSvg from '@colelab/icons-svg/es/asn/FileTimeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FileTimeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

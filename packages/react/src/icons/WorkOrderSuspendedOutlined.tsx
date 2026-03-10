@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import WorkOrderSuspendedOutlinedSvg from '@sensoro-design/icons-svg/es/asn/WorkOrderSuspendedOutlined';
+import WorkOrderSuspendedOutlinedSvg from '@colelab/icons-svg/es/asn/WorkOrderSuspendedOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const WorkOrderSuspendedOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

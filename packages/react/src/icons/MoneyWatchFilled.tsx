@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MoneyWatchFilledSvg from '@sensoro-design/icons-svg/es/asn/MoneyWatchFilled';
+import MoneyWatchFilledSvg from '@colelab/icons-svg/es/asn/MoneyWatchFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MoneyWatchFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,4 +1,4 @@
-import * as SenIcons from '@sensoro-design/icons/es/icons';
+import * as SenIcons from '@colelab/icons-react/es/icons';
 
 export const all = Object.keys(SenIcons)
   .map((n) => n.replace(/(Outlined|Filled|TwoTone|Purely)$/, ''))

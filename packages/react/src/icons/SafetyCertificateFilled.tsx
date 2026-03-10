@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SafetyCertificateFilledSvg from '@sensoro-design/icons-svg/es/asn/SafetyCertificateFilled';
+import SafetyCertificateFilledSvg from '@colelab/icons-svg/es/asn/SafetyCertificateFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SafetyCertificateFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

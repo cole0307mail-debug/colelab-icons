@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import Rewind30SOutlinedSvg from '@sensoro-design/icons-svg/es/asn/Rewind30SOutlined';
+import Rewind30SOutlinedSvg from '@colelab/icons-svg/es/asn/Rewind30SOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const Rewind30SOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

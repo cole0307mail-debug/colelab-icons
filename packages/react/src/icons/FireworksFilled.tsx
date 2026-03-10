@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FireworksFilledSvg from '@sensoro-design/icons-svg/es/asn/FireworksFilled';
+import FireworksFilledSvg from '@colelab/icons-svg/es/asn/FireworksFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FireworksFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BackwardOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BackwardOutlined';
+import BackwardOutlinedSvg from '@colelab/icons-svg/es/asn/BackwardOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BackwardOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

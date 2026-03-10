@@ -1,0 +1,12 @@
+// This icon file is generated automatically.
+import { defineComponent, h } from 'vue';
+import HospitalFilledSvg from '@colelab/icons-svg/es/asn/HospitalFilled';
+import SensoroIcon from '../components/SensoroIcon';
+
+export default defineComponent({
+  name: 'HospitalFilled',
+  inheritAttrs: false,
+  setup(_, { attrs, slots }) {
+    return () => h(SensoroIcon as any, { ...attrs, icon: HospitalFilledSvg }, slots);
+  },
+});

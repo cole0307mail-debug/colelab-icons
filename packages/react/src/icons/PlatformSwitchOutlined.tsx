@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PlatformSwitchOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PlatformSwitchOutlined';
+import PlatformSwitchOutlinedSvg from '@colelab/icons-svg/es/asn/PlatformSwitchOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PlatformSwitchOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

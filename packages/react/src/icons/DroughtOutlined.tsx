@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DroughtOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DroughtOutlined';
+import DroughtOutlinedSvg from '@colelab/icons-svg/es/asn/DroughtOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DroughtOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { generate as generateColor } from '@ant-design/colors';
 
-import type { AbstractNode, IconDefinition } from '@sensoro-design/icons-svg/lib/types';
+import type { AbstractNode, IconDefinition } from '@colelab/icons-svg/lib/types';
 
 export interface Attrs {
   [key: string]: string;

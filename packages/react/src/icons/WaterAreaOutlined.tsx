@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import WaterAreaOutlinedSvg from '@sensoro-design/icons-svg/es/asn/WaterAreaOutlined';
+import WaterAreaOutlinedSvg from '@colelab/icons-svg/es/asn/WaterAreaOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const WaterAreaOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

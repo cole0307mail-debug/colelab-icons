@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ToTopFilledSvg from '@sensoro-design/icons-svg/es/asn/ToTopFilled';
+import ToTopFilledSvg from '@colelab/icons-svg/es/asn/ToTopFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ToTopFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

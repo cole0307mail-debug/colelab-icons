@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import OriginalRatioOutlinedSvg from '@sensoro-design/icons-svg/es/asn/OriginalRatioOutlined';
+import OriginalRatioOutlinedSvg from '@colelab/icons-svg/es/asn/OriginalRatioOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const OriginalRatioOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

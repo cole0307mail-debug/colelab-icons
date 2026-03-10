@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DomeCameraOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DomeCameraOutlined';
+import DomeCameraOutlinedSvg from '@colelab/icons-svg/es/asn/DomeCameraOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DomeCameraOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

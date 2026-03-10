@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CulvertSluiceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CulvertSluiceOutlined';
+import CulvertSluiceOutlinedSvg from '@colelab/icons-svg/es/asn/CulvertSluiceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CulvertSluiceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

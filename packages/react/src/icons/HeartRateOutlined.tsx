@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HeartRateOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HeartRateOutlined';
+import HeartRateOutlinedSvg from '@colelab/icons-svg/es/asn/HeartRateOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HeartRateOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

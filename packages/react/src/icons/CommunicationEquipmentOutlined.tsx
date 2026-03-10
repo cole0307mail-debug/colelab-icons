@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CommunicationEquipmentOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CommunicationEquipmentOutlined';
+import CommunicationEquipmentOutlinedSvg from '@colelab/icons-svg/es/asn/CommunicationEquipmentOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CommunicationEquipmentOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

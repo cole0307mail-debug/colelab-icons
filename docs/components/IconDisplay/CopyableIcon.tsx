@@ -2,7 +2,7 @@ import React from 'react';
 import { Badge } from 'antd';
 import { useClipboard } from 'use-clipboard-hook';
 import { classNames } from '@pansy/shared';
-import * as senIcons from '@sensoro-design/icons';
+import * as senIcons from '@colelab/icons-react';
 
 import { ThemeType } from './';
 
@@ -21,7 +21,7 @@ export const CopyableIcon: React.FC<CopyableIconProps> = ({ name, isNew, theme, 
   });
 
   const handleCopied = () => {
-    const copyText = `import ${name} from '@sensoro-design/icons/${name}';`;
+    const copyText = `import ${name} from '@colelab/icons-react/${name}';`;
 
     copy(copyText);
     onCopied(name, copyText);

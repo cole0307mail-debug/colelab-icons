@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DelayWarningOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DelayWarningOutlined';
+import DelayWarningOutlinedSvg from '@colelab/icons-svg/es/asn/DelayWarningOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DelayWarningOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ShortSleeveOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ShortSleeveOutlined';
+import ShortSleeveOutlinedSvg from '@colelab/icons-svg/es/asn/ShortSleeveOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ShortSleeveOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

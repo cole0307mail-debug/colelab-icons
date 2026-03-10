@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RollbackOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RollbackOutlined';
+import RollbackOutlinedSvg from '@colelab/icons-svg/es/asn/RollbackOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RollbackOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

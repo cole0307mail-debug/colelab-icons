@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GoStraightOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GoStraightOutlined';
+import GoStraightOutlinedSvg from '@colelab/icons-svg/es/asn/GoStraightOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GoStraightOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

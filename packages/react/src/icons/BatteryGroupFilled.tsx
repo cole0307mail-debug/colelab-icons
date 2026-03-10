@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BatteryGroupFilledSvg from '@sensoro-design/icons-svg/es/asn/BatteryGroupFilled';
+import BatteryGroupFilledSvg from '@colelab/icons-svg/es/asn/BatteryGroupFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BatteryGroupFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

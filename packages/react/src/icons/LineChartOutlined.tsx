@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LineChartOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LineChartOutlined';
+import LineChartOutlinedSvg from '@colelab/icons-svg/es/asn/LineChartOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LineChartOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

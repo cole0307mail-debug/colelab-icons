@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AlertCameraOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AlertCameraOutlined';
+import AlertCameraOutlinedSvg from '@colelab/icons-svg/es/asn/AlertCameraOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AlertCameraOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

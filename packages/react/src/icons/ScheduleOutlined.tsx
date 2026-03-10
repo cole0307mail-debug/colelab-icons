@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ScheduleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ScheduleOutlined';
+import ScheduleOutlinedSvg from '@colelab/icons-svg/es/asn/ScheduleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ScheduleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

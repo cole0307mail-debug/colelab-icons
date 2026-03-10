@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ChefHatOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ChefHatOutlined';
+import ChefHatOutlinedSvg from '@colelab/icons-svg/es/asn/ChefHatOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ChefHatOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

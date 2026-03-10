@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SupplyPointOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SupplyPointOutlined';
+import SupplyPointOutlinedSvg from '@colelab/icons-svg/es/asn/SupplyPointOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SupplyPointOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

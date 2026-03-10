@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BloodPressureOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BloodPressureOutlined';
+import BloodPressureOutlinedSvg from '@colelab/icons-svg/es/asn/BloodPressureOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BloodPressureOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

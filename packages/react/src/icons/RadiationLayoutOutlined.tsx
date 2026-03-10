@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RadiationLayoutOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RadiationLayoutOutlined';
+import RadiationLayoutOutlinedSvg from '@colelab/icons-svg/es/asn/RadiationLayoutOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RadiationLayoutOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

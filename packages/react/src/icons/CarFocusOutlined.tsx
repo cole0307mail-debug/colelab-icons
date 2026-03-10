@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CarFocusOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CarFocusOutlined';
+import CarFocusOutlinedSvg from '@colelab/icons-svg/es/asn/CarFocusOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CarFocusOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

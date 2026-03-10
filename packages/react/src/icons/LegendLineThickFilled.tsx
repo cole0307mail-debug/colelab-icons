@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LegendLineThickFilledSvg from '@sensoro-design/icons-svg/es/asn/LegendLineThickFilled';
+import LegendLineThickFilledSvg from '@colelab/icons-svg/es/asn/LegendLineThickFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LegendLineThickFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

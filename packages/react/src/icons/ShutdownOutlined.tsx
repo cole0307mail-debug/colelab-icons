@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ShutdownOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ShutdownOutlined';
+import ShutdownOutlinedSvg from '@colelab/icons-svg/es/asn/ShutdownOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ShutdownOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

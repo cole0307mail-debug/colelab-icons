@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DriveRecorderOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DriveRecorderOutlined';
+import DriveRecorderOutlinedSvg from '@colelab/icons-svg/es/asn/DriveRecorderOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DriveRecorderOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

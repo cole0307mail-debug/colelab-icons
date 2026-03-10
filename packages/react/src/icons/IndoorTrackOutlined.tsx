@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import IndoorTrackOutlinedSvg from '@sensoro-design/icons-svg/es/asn/IndoorTrackOutlined';
+import IndoorTrackOutlinedSvg from '@colelab/icons-svg/es/asn/IndoorTrackOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const IndoorTrackOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

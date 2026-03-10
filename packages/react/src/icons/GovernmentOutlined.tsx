@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GovernmentOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GovernmentOutlined';
+import GovernmentOutlinedSvg from '@colelab/icons-svg/es/asn/GovernmentOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GovernmentOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

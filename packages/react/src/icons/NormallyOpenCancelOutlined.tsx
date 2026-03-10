@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import NormallyOpenCancelOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NormallyOpenCancelOutlined';
+import NormallyOpenCancelOutlinedSvg from '@colelab/icons-svg/es/asn/NormallyOpenCancelOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const NormallyOpenCancelOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

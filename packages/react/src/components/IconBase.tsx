@@ -2,7 +2,7 @@ import React from 'react';
 import { useInsertStyles } from '../hooks/useInsertStyles';
 import { getSecondaryColor, isIconDefinition, generate } from '../utils';
 
-import type { AbstractNode, IconDefinition } from '@sensoro-design/icons-svg/es/types';
+import type { AbstractNode, IconDefinition } from '@colelab/icons-svg/es/types';
 
 export interface IconProps {
   icon: IconDefinition;

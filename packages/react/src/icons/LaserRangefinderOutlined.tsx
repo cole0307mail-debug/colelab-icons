@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LaserRangefinderOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LaserRangefinderOutlined';
+import LaserRangefinderOutlinedSvg from '@colelab/icons-svg/es/asn/LaserRangefinderOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LaserRangefinderOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

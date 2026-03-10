@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SmokePurelySvg from '@sensoro-design/icons-svg/es/asn/SmokePurely';
+import SmokePurelySvg from '@colelab/icons-svg/es/asn/SmokePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SmokePurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

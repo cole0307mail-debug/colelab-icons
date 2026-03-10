@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AperturePlusOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AperturePlusOutlined';
+import AperturePlusOutlinedSvg from '@colelab/icons-svg/es/asn/AperturePlusOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AperturePlusOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

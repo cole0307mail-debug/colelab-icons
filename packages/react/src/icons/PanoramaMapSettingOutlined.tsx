@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PanoramaMapSettingOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PanoramaMapSettingOutlined';
+import PanoramaMapSettingOutlinedSvg from '@colelab/icons-svg/es/asn/PanoramaMapSettingOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PanoramaMapSettingOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HydrolabOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HydrolabOutlined';
+import HydrolabOutlinedSvg from '@colelab/icons-svg/es/asn/HydrolabOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HydrolabOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

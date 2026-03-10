@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FullscreenExitProOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FullscreenExitProOutlined';
+import FullscreenExitProOutlinedSvg from '@colelab/icons-svg/es/asn/FullscreenExitProOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FullscreenExitProOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

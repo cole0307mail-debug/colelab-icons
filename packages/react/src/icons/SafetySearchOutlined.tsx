@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SafetySearchOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SafetySearchOutlined';
+import SafetySearchOutlinedSvg from '@colelab/icons-svg/es/asn/SafetySearchOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SafetySearchOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import NoSwimmingOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NoSwimmingOutlined';
+import NoSwimmingOutlinedSvg from '@colelab/icons-svg/es/asn/NoSwimmingOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const NoSwimmingOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

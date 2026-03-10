@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ExclamationCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ExclamationCircleOutlined';
+import ExclamationCircleOutlinedSvg from '@colelab/icons-svg/es/asn/ExclamationCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ExclamationCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

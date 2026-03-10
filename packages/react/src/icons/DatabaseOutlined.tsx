@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DatabaseOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DatabaseOutlined';
+import DatabaseOutlinedSvg from '@colelab/icons-svg/es/asn/DatabaseOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DatabaseOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

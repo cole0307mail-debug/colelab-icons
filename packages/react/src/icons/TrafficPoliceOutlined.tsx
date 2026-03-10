@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import TrafficPoliceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TrafficPoliceOutlined';
+import TrafficPoliceOutlinedSvg from '@colelab/icons-svg/es/asn/TrafficPoliceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const TrafficPoliceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

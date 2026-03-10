@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ScatterPlotOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ScatterPlotOutlined';
+import ScatterPlotOutlinedSvg from '@colelab/icons-svg/es/asn/ScatterPlotOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ScatterPlotOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

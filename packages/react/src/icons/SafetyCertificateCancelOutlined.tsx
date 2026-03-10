@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SafetyCertificateCancelOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SafetyCertificateCancelOutlined';
+import SafetyCertificateCancelOutlinedSvg from '@colelab/icons-svg/es/asn/SafetyCertificateCancelOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SafetyCertificateCancelOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

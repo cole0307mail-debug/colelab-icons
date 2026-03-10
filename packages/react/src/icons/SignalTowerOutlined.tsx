@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SignalTowerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SignalTowerOutlined';
+import SignalTowerOutlinedSvg from '@colelab/icons-svg/es/asn/SignalTowerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SignalTowerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

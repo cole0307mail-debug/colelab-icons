@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CardReaderOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CardReaderOutlined';
+import CardReaderOutlinedSvg from '@colelab/icons-svg/es/asn/CardReaderOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CardReaderOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

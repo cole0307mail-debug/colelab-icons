@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GridOutlinedSvg from '@sensoro-design/icons-svg/es/asn/GridOutlined';
+import GridOutlinedSvg from '@colelab/icons-svg/es/asn/GridOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GridOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import WifiOutlinedSvg from '@sensoro-design/icons-svg/es/asn/WifiOutlined';
+import WifiOutlinedSvg from '@colelab/icons-svg/es/asn/WifiOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const WifiOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

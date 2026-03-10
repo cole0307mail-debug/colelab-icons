@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import IntelligentAccessFilledSvg from '@sensoro-design/icons-svg/es/asn/IntelligentAccessFilled';
+import IntelligentAccessFilledSvg from '@colelab/icons-svg/es/asn/IntelligentAccessFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const IntelligentAccessFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

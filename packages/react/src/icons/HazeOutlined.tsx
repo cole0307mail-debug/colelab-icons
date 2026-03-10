@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HazeOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HazeOutlined';
+import HazeOutlinedSvg from '@colelab/icons-svg/es/asn/HazeOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HazeOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

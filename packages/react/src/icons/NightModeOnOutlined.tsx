@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import NightModeOnOutlinedSvg from '@sensoro-design/icons-svg/es/asn/NightModeOnOutlined';
+import NightModeOnOutlinedSvg from '@colelab/icons-svg/es/asn/NightModeOnOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const NightModeOnOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

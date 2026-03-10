@@ -1,0 +1,26 @@
+{
+  "name": "@colelab/icons-vue",
+  "version": "2.100.0",
+  "description": "Vue components for sensoro design icons.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "generate": "tsx ./scripts/generate.ts",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "vue": ">=3.2.0"
+  },
+  "dependencies": {
+    "@colelab/icons-svg": "workspace:*",
+    "@ant-design/colors": "^7.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vue": "^3.5.13"
+  }
+}

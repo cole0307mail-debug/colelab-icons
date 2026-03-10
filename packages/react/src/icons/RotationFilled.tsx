@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RotationFilledSvg from '@sensoro-design/icons-svg/es/asn/RotationFilled';
+import RotationFilledSvg from '@colelab/icons-svg/es/asn/RotationFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RotationFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

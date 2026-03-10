@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ForestFireCameraOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ForestFireCameraOutlined';
+import ForestFireCameraOutlinedSvg from '@colelab/icons-svg/es/asn/ForestFireCameraOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ForestFireCameraOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

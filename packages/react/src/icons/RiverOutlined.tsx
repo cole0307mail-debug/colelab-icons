@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RiverOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RiverOutlined';
+import RiverOutlinedSvg from '@colelab/icons-svg/es/asn/RiverOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RiverOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

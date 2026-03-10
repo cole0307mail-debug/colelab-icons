@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import KeyboardOutlinedSvg from '@sensoro-design/icons-svg/es/asn/KeyboardOutlined';
+import KeyboardOutlinedSvg from '@colelab/icons-svg/es/asn/KeyboardOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const KeyboardOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

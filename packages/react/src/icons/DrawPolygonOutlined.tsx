@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DrawPolygonOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DrawPolygonOutlined';
+import DrawPolygonOutlinedSvg from '@colelab/icons-svg/es/asn/DrawPolygonOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DrawPolygonOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

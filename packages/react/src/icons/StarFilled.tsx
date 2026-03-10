@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import StarFilledSvg from '@sensoro-design/icons-svg/es/asn/StarFilled';
+import StarFilledSvg from '@colelab/icons-svg/es/asn/StarFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const StarFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MaxTemperatureOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MaxTemperatureOutlined';
+import MaxTemperatureOutlinedSvg from '@colelab/icons-svg/es/asn/MaxTemperatureOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MaxTemperatureOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SecurityGuardOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SecurityGuardOutlined';
+import SecurityGuardOutlinedSvg from '@colelab/icons-svg/es/asn/SecurityGuardOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SecurityGuardOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

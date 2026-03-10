@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FireHostPurelySvg from '@sensoro-design/icons-svg/es/asn/FireHostPurely';
+import FireHostPurelySvg from '@colelab/icons-svg/es/asn/FireHostPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FireHostPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

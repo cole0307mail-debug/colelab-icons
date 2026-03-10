@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PaperClipOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PaperClipOutlined';
+import PaperClipOutlinedSvg from '@colelab/icons-svg/es/asn/PaperClipOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PaperClipOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

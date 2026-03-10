@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SharpLeftTurnOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SharpLeftTurnOutlined';
+import SharpLeftTurnOutlinedSvg from '@colelab/icons-svg/es/asn/SharpLeftTurnOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SharpLeftTurnOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

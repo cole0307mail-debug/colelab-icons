@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import TrackingDeviceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TrackingDeviceOutlined';
+import TrackingDeviceOutlinedSvg from '@colelab/icons-svg/es/asn/TrackingDeviceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const TrackingDeviceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

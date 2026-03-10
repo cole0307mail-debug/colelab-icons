@@ -1,5 +1,5 @@
 {
-  "name": "@sensoro-design/icons-svg",
+  "name": "@colelab/icons-svg",
   "version": "2.100.0",
   "description": "sensoro design icons.",
   "main": "lib/index.js",

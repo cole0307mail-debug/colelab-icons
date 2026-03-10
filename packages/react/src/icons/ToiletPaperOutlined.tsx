@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ToiletPaperOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ToiletPaperOutlined';
+import ToiletPaperOutlinedSvg from '@colelab/icons-svg/es/asn/ToiletPaperOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ToiletPaperOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

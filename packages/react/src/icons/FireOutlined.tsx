@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FireOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FireOutlined';
+import FireOutlinedSvg from '@colelab/icons-svg/es/asn/FireOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FireOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

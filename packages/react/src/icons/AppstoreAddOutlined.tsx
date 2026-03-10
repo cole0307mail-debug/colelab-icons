@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AppstoreAddOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AppstoreAddOutlined';
+import AppstoreAddOutlinedSvg from '@colelab/icons-svg/es/asn/AppstoreAddOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AppstoreAddOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

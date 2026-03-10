@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PaintTrayOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PaintTrayOutlined';
+import PaintTrayOutlinedSvg from '@colelab/icons-svg/es/asn/PaintTrayOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PaintTrayOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

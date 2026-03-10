@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PoweroffOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PoweroffOutlined';
+import PoweroffOutlinedSvg from '@colelab/icons-svg/es/asn/PoweroffOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PoweroffOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

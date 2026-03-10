@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DeepThinkOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DeepThinkOutlined';
+import DeepThinkOutlinedSvg from '@colelab/icons-svg/es/asn/DeepThinkOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DeepThinkOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

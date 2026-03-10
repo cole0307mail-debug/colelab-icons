@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AudibleAlarmCloseOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AudibleAlarmCloseOutlined';
+import AudibleAlarmCloseOutlinedSvg from '@colelab/icons-svg/es/asn/AudibleAlarmCloseOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AudibleAlarmCloseOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import EpidemicProtectionOutlinedSvg from '@sensoro-design/icons-svg/es/asn/EpidemicProtectionOutlined';
+import EpidemicProtectionOutlinedSvg from '@colelab/icons-svg/es/asn/EpidemicProtectionOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const EpidemicProtectionOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import UserTimePurelySvg from '@sensoro-design/icons-svg/es/asn/UserTimePurely';
+import UserTimePurelySvg from '@colelab/icons-svg/es/asn/UserTimePurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const UserTimePurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

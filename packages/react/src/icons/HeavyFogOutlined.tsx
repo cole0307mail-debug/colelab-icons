@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HeavyFogOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HeavyFogOutlined';
+import HeavyFogOutlinedSvg from '@colelab/icons-svg/es/asn/HeavyFogOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HeavyFogOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

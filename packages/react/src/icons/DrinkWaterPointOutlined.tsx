@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DrinkWaterPointOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DrinkWaterPointOutlined';
+import DrinkWaterPointOutlinedSvg from '@colelab/icons-svg/es/asn/DrinkWaterPointOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DrinkWaterPointOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

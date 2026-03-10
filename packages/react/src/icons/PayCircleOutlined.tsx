@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PayCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PayCircleOutlined';
+import PayCircleOutlinedSvg from '@colelab/icons-svg/es/asn/PayCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PayCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

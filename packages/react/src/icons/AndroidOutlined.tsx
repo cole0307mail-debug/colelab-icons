@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AndroidOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AndroidOutlined';
+import AndroidOutlinedSvg from '@colelab/icons-svg/es/asn/AndroidOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AndroidOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

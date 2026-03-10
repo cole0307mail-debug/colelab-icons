@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import TakeOffOutlinedSvg from '@sensoro-design/icons-svg/es/asn/TakeOffOutlined';
+import TakeOffOutlinedSvg from '@colelab/icons-svg/es/asn/TakeOffOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const TakeOffOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

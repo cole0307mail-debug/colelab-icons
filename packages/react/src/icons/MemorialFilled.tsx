@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MemorialFilledSvg from '@sensoro-design/icons-svg/es/asn/MemorialFilled';
+import MemorialFilledSvg from '@colelab/icons-svg/es/asn/MemorialFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MemorialFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

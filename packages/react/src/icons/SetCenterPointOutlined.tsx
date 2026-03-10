@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SetCenterPointOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SetCenterPointOutlined';
+import SetCenterPointOutlinedSvg from '@colelab/icons-svg/es/asn/SetCenterPointOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SetCenterPointOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

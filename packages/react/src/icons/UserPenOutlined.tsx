@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import UserPenOutlinedSvg from '@sensoro-design/icons-svg/es/asn/UserPenOutlined';
+import UserPenOutlinedSvg from '@colelab/icons-svg/es/asn/UserPenOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const UserPenOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

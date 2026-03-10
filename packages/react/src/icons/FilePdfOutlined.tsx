@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FilePdfOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FilePdfOutlined';
+import FilePdfOutlinedSvg from '@colelab/icons-svg/es/asn/FilePdfOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FilePdfOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import Map2DOutlinedSvg from '@sensoro-design/icons-svg/es/asn/Map2DOutlined';
+import Map2DOutlinedSvg from '@colelab/icons-svg/es/asn/Map2DOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const Map2DOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ExclamationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ExclamationOutlined';
+import ExclamationOutlinedSvg from '@colelab/icons-svg/es/asn/ExclamationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ExclamationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

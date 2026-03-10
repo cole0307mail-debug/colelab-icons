@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FullFrameAnalysisOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FullFrameAnalysisOutlined';
+import FullFrameAnalysisOutlinedSvg from '@colelab/icons-svg/es/asn/FullFrameAnalysisOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FullFrameAnalysisOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

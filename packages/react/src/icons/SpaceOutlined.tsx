@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SpaceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SpaceOutlined';
+import SpaceOutlinedSvg from '@colelab/icons-svg/es/asn/SpaceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SpaceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

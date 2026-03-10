@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ReservoirOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ReservoirOutlined';
+import ReservoirOutlinedSvg from '@colelab/icons-svg/es/asn/ReservoirOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ReservoirOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

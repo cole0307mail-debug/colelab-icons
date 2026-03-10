@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ExitOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ExitOutlined';
+import ExitOutlinedSvg from '@colelab/icons-svg/es/asn/ExitOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ExitOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

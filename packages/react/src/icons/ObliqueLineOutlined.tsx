@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ObliqueLineOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ObliqueLineOutlined';
+import ObliqueLineOutlinedSvg from '@colelab/icons-svg/es/asn/ObliqueLineOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ObliqueLineOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import StopOutlinedSvg from '@sensoro-design/icons-svg/es/asn/StopOutlined';
+import StopOutlinedSvg from '@colelab/icons-svg/es/asn/StopOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const StopOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

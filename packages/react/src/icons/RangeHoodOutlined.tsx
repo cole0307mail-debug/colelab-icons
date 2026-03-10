@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RangeHoodOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RangeHoodOutlined';
+import RangeHoodOutlinedSvg from '@colelab/icons-svg/es/asn/RangeHoodOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RangeHoodOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

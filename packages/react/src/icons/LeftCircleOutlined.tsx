@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import LeftCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/LeftCircleOutlined';
+import LeftCircleOutlinedSvg from '@colelab/icons-svg/es/asn/LeftCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const LeftCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

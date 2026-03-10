@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CloudOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CloudOutlined';
+import CloudOutlinedSvg from '@colelab/icons-svg/es/asn/CloudOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CloudOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AuxiliaryPoliceOfficerFilledSvg from '@sensoro-design/icons-svg/es/asn/AuxiliaryPoliceOfficerFilled';
+import AuxiliaryPoliceOfficerFilledSvg from '@colelab/icons-svg/es/asn/AuxiliaryPoliceOfficerFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AuxiliaryPoliceOfficerFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

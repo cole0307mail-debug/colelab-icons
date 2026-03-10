@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ArrowCircleEndFilledSvg from '@sensoro-design/icons-svg/es/asn/ArrowCircleEndFilled';
+import ArrowCircleEndFilledSvg from '@colelab/icons-svg/es/asn/ArrowCircleEndFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ArrowCircleEndFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

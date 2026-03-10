@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import EyeInvisibleFilledSvg from '@sensoro-design/icons-svg/es/asn/EyeInvisibleFilled';
+import EyeInvisibleFilledSvg from '@colelab/icons-svg/es/asn/EyeInvisibleFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const EyeInvisibleFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AudioMutedFilledSvg from '@sensoro-design/icons-svg/es/asn/AudioMutedFilled';
+import AudioMutedFilledSvg from '@colelab/icons-svg/es/asn/AudioMutedFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AudioMutedFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

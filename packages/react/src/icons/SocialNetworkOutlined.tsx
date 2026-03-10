@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SocialNetworkOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SocialNetworkOutlined';
+import SocialNetworkOutlinedSvg from '@colelab/icons-svg/es/asn/SocialNetworkOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SocialNetworkOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PowerOutageFilledSvg from '@sensoro-design/icons-svg/es/asn/PowerOutageFilled';
+import PowerOutageFilledSvg from '@colelab/icons-svg/es/asn/PowerOutageFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PowerOutageFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

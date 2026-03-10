@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import KinescopeStopOutlinedSvg from '@sensoro-design/icons-svg/es/asn/KinescopeStopOutlined';
+import KinescopeStopOutlinedSvg from '@colelab/icons-svg/es/asn/KinescopeStopOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const KinescopeStopOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

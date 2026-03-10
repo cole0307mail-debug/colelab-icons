@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import OffDayPurelySvg from '@sensoro-design/icons-svg/es/asn/OffDayPurely';
+import OffDayPurelySvg from '@colelab/icons-svg/es/asn/OffDayPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const OffDayPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

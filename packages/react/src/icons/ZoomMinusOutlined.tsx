@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ZoomMinusOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ZoomMinusOutlined';
+import ZoomMinusOutlinedSvg from '@colelab/icons-svg/es/asn/ZoomMinusOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ZoomMinusOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

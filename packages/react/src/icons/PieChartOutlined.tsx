@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PieChartOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PieChartOutlined';
+import PieChartOutlinedSvg from '@colelab/icons-svg/es/asn/PieChartOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PieChartOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

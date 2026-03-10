@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SoundOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SoundOutlined';
+import SoundOutlinedSvg from '@colelab/icons-svg/es/asn/SoundOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SoundOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

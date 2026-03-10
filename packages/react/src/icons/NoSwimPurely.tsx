@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import NoSwimPurelySvg from '@sensoro-design/icons-svg/es/asn/NoSwimPurely';
+import NoSwimPurelySvg from '@colelab/icons-svg/es/asn/NoSwimPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const NoSwimPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

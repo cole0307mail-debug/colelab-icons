@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FootTrafficOutlinedSvg from '@sensoro-design/icons-svg/es/asn/FootTrafficOutlined';
+import FootTrafficOutlinedSvg from '@colelab/icons-svg/es/asn/FootTrafficOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FootTrafficOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

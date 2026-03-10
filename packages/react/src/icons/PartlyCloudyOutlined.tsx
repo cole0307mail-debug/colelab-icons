@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PartlyCloudyOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PartlyCloudyOutlined';
+import PartlyCloudyOutlinedSvg from '@colelab/icons-svg/es/asn/PartlyCloudyOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PartlyCloudyOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import IrrigationPipelineOutlinedSvg from '@sensoro-design/icons-svg/es/asn/IrrigationPipelineOutlined';
+import IrrigationPipelineOutlinedSvg from '@colelab/icons-svg/es/asn/IrrigationPipelineOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const IrrigationPipelineOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

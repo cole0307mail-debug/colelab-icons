@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HangUpOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HangUpOutlined';
+import HangUpOutlinedSvg from '@colelab/icons-svg/es/asn/HangUpOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HangUpOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

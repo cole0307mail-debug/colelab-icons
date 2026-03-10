@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DormancyOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DormancyOutlined';
+import DormancyOutlinedSvg from '@colelab/icons-svg/es/asn/DormancyOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DormancyOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

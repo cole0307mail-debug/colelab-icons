@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FastBackwardFilledSvg from '@sensoro-design/icons-svg/es/asn/FastBackwardFilled';
+import FastBackwardFilledSvg from '@colelab/icons-svg/es/asn/FastBackwardFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FastBackwardFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

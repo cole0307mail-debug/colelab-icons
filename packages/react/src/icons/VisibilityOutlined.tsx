@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import VisibilityOutlinedSvg from '@sensoro-design/icons-svg/es/asn/VisibilityOutlined';
+import VisibilityOutlinedSvg from '@colelab/icons-svg/es/asn/VisibilityOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const VisibilityOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

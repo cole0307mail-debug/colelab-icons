@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HighSpeedBayonetOutlinedSvg from '@sensoro-design/icons-svg/es/asn/HighSpeedBayonetOutlined';
+import HighSpeedBayonetOutlinedSvg from '@colelab/icons-svg/es/asn/HighSpeedBayonetOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HighSpeedBayonetOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import GasAlarmFilledSvg from '@sensoro-design/icons-svg/es/asn/GasAlarmFilled';
+import GasAlarmFilledSvg from '@colelab/icons-svg/es/asn/GasAlarmFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const GasAlarmFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AreaGridPurelySvg from '@sensoro-design/icons-svg/es/asn/AreaGridPurely';
+import AreaGridPurelySvg from '@colelab/icons-svg/es/asn/AreaGridPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AreaGridPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

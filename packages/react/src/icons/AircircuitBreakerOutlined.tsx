@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import AircircuitBreakerOutlinedSvg from '@sensoro-design/icons-svg/es/asn/AircircuitBreakerOutlined';
+import AircircuitBreakerOutlinedSvg from '@colelab/icons-svg/es/asn/AircircuitBreakerOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const AircircuitBreakerOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MinusCircleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MinusCircleOutlined';
+import MinusCircleOutlinedSvg from '@colelab/icons-svg/es/asn/MinusCircleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MinusCircleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HashrateFilledSvg from '@sensoro-design/icons-svg/es/asn/HashrateFilled';
+import HashrateFilledSvg from '@colelab/icons-svg/es/asn/HashrateFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HashrateFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

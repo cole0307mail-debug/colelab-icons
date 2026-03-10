@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import VideoMonitorPurelySvg from '@sensoro-design/icons-svg/es/asn/VideoMonitorPurely';
+import VideoMonitorPurelySvg from '@colelab/icons-svg/es/asn/VideoMonitorPurely';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const VideoMonitorPurely = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

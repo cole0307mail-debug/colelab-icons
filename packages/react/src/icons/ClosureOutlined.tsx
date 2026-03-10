@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ClosureOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ClosureOutlined';
+import ClosureOutlinedSvg from '@colelab/icons-svg/es/asn/ClosureOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ClosureOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

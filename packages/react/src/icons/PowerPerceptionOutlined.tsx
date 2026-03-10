@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PowerPerceptionOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PowerPerceptionOutlined';
+import PowerPerceptionOutlinedSvg from '@colelab/icons-svg/es/asn/PowerPerceptionOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PowerPerceptionOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

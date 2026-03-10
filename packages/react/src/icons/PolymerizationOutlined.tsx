@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PolymerizationOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PolymerizationOutlined';
+import PolymerizationOutlinedSvg from '@colelab/icons-svg/es/asn/PolymerizationOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PolymerizationOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

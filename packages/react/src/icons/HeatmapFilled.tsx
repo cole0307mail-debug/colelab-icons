@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import HeatmapFilledSvg from '@sensoro-design/icons-svg/es/asn/HeatmapFilled';
+import HeatmapFilledSvg from '@colelab/icons-svg/es/asn/HeatmapFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const HeatmapFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

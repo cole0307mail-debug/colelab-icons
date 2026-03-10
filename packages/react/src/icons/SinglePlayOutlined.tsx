@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import SinglePlayOutlinedSvg from '@sensoro-design/icons-svg/es/asn/SinglePlayOutlined';
+import SinglePlayOutlinedSvg from '@colelab/icons-svg/es/asn/SinglePlayOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const SinglePlayOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

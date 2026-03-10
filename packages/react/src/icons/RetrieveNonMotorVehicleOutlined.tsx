@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import RetrieveNonMotorVehicleOutlinedSvg from '@sensoro-design/icons-svg/es/asn/RetrieveNonMotorVehicleOutlined';
+import RetrieveNonMotorVehicleOutlinedSvg from '@colelab/icons-svg/es/asn/RetrieveNonMotorVehicleOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const RetrieveNonMotorVehicleOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

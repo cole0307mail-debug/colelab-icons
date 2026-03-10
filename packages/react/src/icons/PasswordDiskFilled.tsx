@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PasswordDiskFilledSvg from '@sensoro-design/icons-svg/es/asn/PasswordDiskFilled';
+import PasswordDiskFilledSvg from '@colelab/icons-svg/es/asn/PasswordDiskFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PasswordDiskFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import DockOutlinedSvg from '@sensoro-design/icons-svg/es/asn/DockOutlined';
+import DockOutlinedSvg from '@colelab/icons-svg/es/asn/DockOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const DockOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CallVideoFilledSvg from '@sensoro-design/icons-svg/es/asn/CallVideoFilled';
+import CallVideoFilledSvg from '@colelab/icons-svg/es/asn/CallVideoFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CallVideoFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

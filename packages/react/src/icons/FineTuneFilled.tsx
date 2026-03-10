@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import FineTuneFilledSvg from '@sensoro-design/icons-svg/es/asn/FineTuneFilled';
+import FineTuneFilledSvg from '@colelab/icons-svg/es/asn/FineTuneFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const FineTuneFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

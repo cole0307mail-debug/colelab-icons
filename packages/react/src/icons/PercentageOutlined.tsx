@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import PercentageOutlinedSvg from '@sensoro-design/icons-svg/es/asn/PercentageOutlined';
+import PercentageOutlinedSvg from '@colelab/icons-svg/es/asn/PercentageOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const PercentageOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

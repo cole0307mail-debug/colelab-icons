@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ArrowCaretLeftFilledSvg from '@sensoro-design/icons-svg/es/asn/ArrowCaretLeftFilled';
+import ArrowCaretLeftFilledSvg from '@colelab/icons-svg/es/asn/ArrowCaretLeftFilled';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ArrowCaretLeftFilled = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

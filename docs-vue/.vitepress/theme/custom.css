@@ -1,0 +1,13 @@
+/* Align doc content width with top nav container (not full screen) */
+:root {
+  --vp-layout-max-width: 1360px;
+}
+
+.VPDoc .container {
+  max-width: var(--vp-layout-max-width) !important;
+}
+
+.VPDoc .content,
+.VPDoc .content-container {
+  max-width: 100% !important;
+}

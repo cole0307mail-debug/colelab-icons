@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import UserMolecularChainOutlinedSvg from '@sensoro-design/icons-svg/es/asn/UserMolecularChainOutlined';
+import UserMolecularChainOutlinedSvg from '@colelab/icons-svg/es/asn/UserMolecularChainOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const UserMolecularChainOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

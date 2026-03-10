@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import MinTemperatureOutlinedSvg from '@sensoro-design/icons-svg/es/asn/MinTemperatureOutlined';
+import MinTemperatureOutlinedSvg from '@colelab/icons-svg/es/asn/MinTemperatureOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const MinTemperatureOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

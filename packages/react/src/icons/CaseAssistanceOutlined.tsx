@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import CaseAssistanceOutlinedSvg from '@sensoro-design/icons-svg/es/asn/CaseAssistanceOutlined';
+import CaseAssistanceOutlinedSvg from '@colelab/icons-svg/es/asn/CaseAssistanceOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const CaseAssistanceOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

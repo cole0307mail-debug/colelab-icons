@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import ForwardOutlinedSvg from '@sensoro-design/icons-svg/es/asn/ForwardOutlined';
+import ForwardOutlinedSvg from '@colelab/icons-svg/es/asn/ForwardOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const ForwardOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

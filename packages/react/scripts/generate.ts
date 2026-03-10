@@ -1,7 +1,7 @@
 import path from 'node:path';
 import { logger, fsExtra } from '@umijs/utils';
 import { series } from 'gulp';
-import * as allIconDefs from '@sensoro-design/icons-svg';
+import * as allIconDefs from '@colelab/icons-svg';
 
 import { generateIcons } from './tasks';
 import { clean, generateEntry } from '../../core/scripts/tasks';

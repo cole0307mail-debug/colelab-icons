@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import EraserOutlinedSvg from '@sensoro-design/icons-svg/es/asn/EraserOutlined';
+import EraserOutlinedSvg from '@colelab/icons-svg/es/asn/EraserOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const EraserOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (

@@ -1,6 +1,6 @@
 // This icon file is generated automatically.
 import * as React from 'react';
-import BrainMapOutlinedSvg from '@sensoro-design/icons-svg/es/asn/BrainMapOutlined';
+import BrainMapOutlinedSvg from '@colelab/icons-svg/es/asn/BrainMapOutlined';
 import SensoroIcon, { SensoroIconProps } from '../components/SensoroIcon';
 
 const BrainMapOutlined = (props: SensoroIconProps, ref: React.MutableRefObject<HTMLSpanElement>) => (
