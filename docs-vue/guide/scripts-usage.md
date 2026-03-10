@@ -87,3 +87,31 @@ pnpm release:ship
 2. `pnpm publish --recursive --tag latest` 会发布所有可发布子包，请在 `release:check` 通过后再执行。
 3. 若需清理依赖可使用 `pnpm clean`，但这是重操作（会删除所有子包 `node_modules`）。
 
+
+
+---
+
+## 七、GitHub 工作流说明（重点）
+
+### `deploy.yml`（文档部署）
+
+用途：发布文档站到 GitHub Pages。
+
+- 触发：`master/main` push
+- 主要命令：`pnpm generate && pnpm build && pnpm site`
+- 产物：
+  - `/react`（dumi 文档）
+  - `/vue`（vitepress 文档）
+
+### `release.yml`（npm 发包）
+
+用途：发布 npm 包（`@colelab/icons-*`）。
+
+- 触发：手动触发（workflow_dispatch）
+- 认证：OIDC Trusted Publishing（不使用长期 `NPM_TOKEN`）
+- 主要命令：`release:check` ->（可选 `release:version`）-> `release:publish`
+
+### 一句话区分
+
+- `deploy.yml` = **发文档**
+- `release.yml` = **发包**

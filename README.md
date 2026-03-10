@@ -112,3 +112,11 @@ nvm use 20
 [npm-url]: https://npmjs.org/package/@colelab/icons-react
 [download-image]: https://img.shields.io/npm/dm/@colelab/icons-react.svg?style=flat-square
 [download-url]: https://npmjs.org/package/@colelab/icons-react
+
+
+## 🔄 GitHub Actions 工作流
+
+- `deploy.yml`：部署文档站（GitHub Pages）
+- `release.yml`：发布 npm 包（OIDC Trusted Publishing）
+
+> 记忆口诀：`deploy` 发文档，`release` 发包。
