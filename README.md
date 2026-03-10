@@ -1,14 +1,16 @@
-<h1 align="center">Cole Icons</h1>
+# Cole Icons
 
-<div align="center">
+
 
 语义化矢量图标库，基于单一 SVG 源数据生成 React / Vue 组件产物。
 
-<br />
+  
 
-[![NPM version][npm-image]][npm-url]
-[![NPM downloads][download-image]][download-url]
-</div>
+
+[NPM version](https://npmjs.org/package/@colelab/icons-react)
+[NPM downloads](https://npmjs.org/package/@colelab/icons-react)
+
+
 
 ## ✨ 特性
 
@@ -37,6 +39,12 @@ pnpm add @colelab/icons-react
 # 高级场景（通用 icon + ASN）
 pnpm add @colelab/icons-svg
 ```
+
+## 📚 在线文档
+
+- 文档入口：`https://cole0307mail-debug.github.io/colelab-icons/`
+- Vue 文档：`https://cole0307mail-debug.github.io/colelab-icons/vue/`
+- React 文档：`https://cole0307mail-debug.github.io/colelab-icons/react/`
 
 ## 🤝 本地开发
 
@@ -98,6 +106,8 @@ flowchart LR
   E --> G[@colelab/icons-vue]
 ```
 
+
+
 ## ⚠️ Node 版本说明
 
 文档链路（dumi）在新版本 Node 下可能有兼容问题，推荐在本仓库使用：
@@ -108,19 +118,12 @@ nvm use 20
 
 （已通过 `.nvmrc` 固定）
 
-[npm-image]: https://img.shields.io/npm/v/@colelab/icons-react.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@colelab/icons-react
-[download-image]: https://img.shields.io/npm/dm/@colelab/icons-react.svg?style=flat-square
-[download-url]: https://npmjs.org/package/@colelab/icons-react
-
-
 ## 🔄 GitHub Actions 工作流
 
 - `deploy.yml`：部署文档站（GitHub Pages）
 - `release.yml`：发布 npm 包（OIDC Trusted Publishing）
 
 > 记忆口诀：`deploy` 发文档，`release` 发包。
-
 
 ## 📁 常见产物目录速查
 
@@ -144,4 +147,5 @@ nvm use 20
 - Vue 文档：`docs-vue/.vitepress/dist`
 - 部署聚合目录：`deploy-dist`
 
-> 提示：缓存和构建产物目录不应提交到 Git。
+
+

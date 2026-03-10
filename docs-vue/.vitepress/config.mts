@@ -1,15 +1,27 @@
+import path from 'node:path';
 import { defineConfig } from 'vitepress';
 
 const REPO = 'https://github.com/cole0307mail-debug/colelab-icons';
-const REACT_DOCS = '/colelab-icons/react/';
+const isProd = process.env.NODE_ENV === 'production';
+const REACT_DOCS = isProd ? '/colelab-icons/react/' : 'http://localhost:8000/';
 
 export default defineConfig({
   appearance: true,
-  base: '/colelab-icons/vue/',
+  base: isProd ? '/colelab-icons/vue/' : '/',
   title: 'Cole Icons',
   description: 'Icon docs for Vue/React',
   themeConfig: {
     logo: 'https://cdn.jsdelivr.net/gh/wangxingkang/pictures@latest/imgs/sensoro-design.svg',
+  },
+
+  vite: {
+    resolve: {
+      alias: [
+        { find: '@colelab/icons-vue', replacement: path.resolve(__dirname, '../../packages/vue/src/index.ts') },
+        { find: '@colelab/icons-svg/es', replacement: path.resolve(__dirname, '../../packages/core/src') },
+        { find: '@colelab/icons-svg', replacement: path.resolve(__dirname, '../../packages/core/src/index.ts') },
+      ],
+    },
   },
   locales: {
     root: {
