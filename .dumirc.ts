@@ -13,6 +13,8 @@ const prodConfig = isProd
   : defineConfig({});
 
 const base = '/colelab-icons/react/';
+const VUE_DOCS = isProd ? '/colelab-icons/vue/' : 'http://localhost:5173/';
+const REACT_DOCS = isProd ? '/colelab-icons/react/' : '/';
 
 export default defineConfig({
   base,
@@ -21,8 +23,8 @@ export default defineConfig({
     name: 'Icons',
     logo,
     navs: [
-      { title: 'Vue 文档', link: '/colelab-icons/vue/' },
-      { title: 'React 文档', link: '/colelab-icons/react/' },
+      { title: 'Vue 文档', link: VUE_DOCS },
+      { title: 'React 文档', link: REACT_DOCS },
     ],
     socialLinks: {
       github: 'https://github.com/cole0307mail-debug/colelab-icons',
