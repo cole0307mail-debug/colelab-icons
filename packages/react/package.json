@@ -1,6 +1,6 @@
 {
   "name": "@colelab/icons-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Abstract nodes for sensoro design icons.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -30,8 +30,8 @@
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "@babel/runtime": "^7.11.2",
-    "@pansy/classnames": "^1.0.1",
     "@colelab/icons-svg": "workspace:*",
+    "@pansy/classnames": "^1.0.1",
     "rc-util": "^5.19.3"
   },
   "publishConfig": {
