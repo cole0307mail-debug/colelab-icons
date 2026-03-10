@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "pnpm generate:core && pnpm build:core",
-    "start": "pnpm start:vue",
-    "site": "dumi build",
+    "start": "concurrently -n react,vue -c cyan,magenta \"pnpm start:react\" \"pnpm start:vue\"",
+    "site": "pnpm site:react && pnpm site:vue",
     "preview": "dumi preview",
     "clean": "rimraf ./**/node_modules",
     "generate": "pnpm -r --workspace-concurrency=1 run generate",
@@ -28,7 +28,10 @@
     "start:vue": "vitepress dev docs-vue",
     "site:react": "dumi build",
     "site:vue": "vitepress build docs-vue",
-    "preview:vue": "vitepress preview docs-vue"
+    "preview:vue": "vitepress preview docs-vue",
+    "test:smoke": "node ./tests/smoke-check.mjs",
+    "test": "pnpm test:smoke",
+    "ci:check": "pnpm generate && pnpm build && pnpm test"
   },
   "repository": {
     "type": "git",
@@ -88,7 +91,8 @@
     "vinyl": "catalog:",
     "vitepress": "^1.6.3",
     "walrus": "workspace:*",
-    "zx": "catalog:"
+    "zx": "catalog:",
+    "concurrently": "^9.1.2"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
