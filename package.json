@@ -32,7 +32,9 @@
     "preview:react": "dumi preview",
     "release:check": "pnpm generate && pnpm build && pnpm test",
     "release:prepare": "pnpm release:version && pnpm build && pnpm test",
-    "release:ship": "pnpm release:check && pnpm release:prepare && pnpm release:publish"
+    "release:ship": "pnpm release:check && pnpm release:prepare && pnpm release:publish",
+    "clean:generate": "rm -rf packages/core/src packages/core/inline-svg packages/core/inline-namespaced-svg packages/react/src/icons packages/vue/src/icons",
+    "clean:build": "rm -rf packages/core/es packages/core/lib packages/react/es packages/react/lib packages/vue/es packages/vue/lib dist docs-vue/.vitepress/dist deploy-dist"
   },
   "repository": {
     "type": "git",

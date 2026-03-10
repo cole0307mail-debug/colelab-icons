@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 
 const REPO = 'https://github.com/cole0307mail-debug/colelab-icons';
 const isProd = process.env.NODE_ENV === 'production';
-const REACT_DOCS = isProd ? '/colelab-icons/react/' : 'http://localhost:8001/';
+const REACT_DOCS = isProd ? '/colelab-icons/react/' : 'http://localhost:8000/';
 
 export default defineConfig({
   appearance: true,
