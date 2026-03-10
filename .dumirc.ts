@@ -20,6 +20,10 @@ export default defineConfig({
   themeConfig: {
     name: 'Icons',
     logo,
+    navs: [
+      { title: 'Vue 文档', link: '/colelab-icons/vue/' },
+      { title: 'React 文档', link: '/colelab-icons/react/' },
+    ],
     socialLinks: {
       github: 'https://github.com/cole0307mail-debug/colelab-icons',
     },
