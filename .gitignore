@@ -46,3 +46,7 @@ package-lock.json
 **/*/package-lock.json
 yarn.lock
 **/*/yarn.lock
+
+# vitepress
+/docs-vue/.vitepress/cache
+/docs-vue/.vitepress/dist

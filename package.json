@@ -5,15 +5,13 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "pnpm generate:core && pnpm build:core",
-    "start": "pnpm start:vue",
-    "site": "dumi build",
-    "preview": "dumi preview",
+    "start": "concurrently -n react,vue -c cyan,magenta \"pnpm start:react\" \"pnpm start:vue\"",
+    "site": "pnpm site:react && pnpm site:vue",
+    "preview": "concurrently -n react,vue -c cyan,magenta \"pnpm preview:react\" \"pnpm preview:vue\"",
     "clean": "rimraf ./**/node_modules",
     "generate": "pnpm -r --workspace-concurrency=1 run generate",
     "generate:core": "pnpm -r --filter @colelab/icons-svg run generate",
     "build:core": "pnpm -r --filter @colelab/icons-svg run build",
-    "release": "walrus release",
-    "release:build": "lerna run --concurrency 8 --no-private build",
     "release:version": "lerna version --conventional-commits --yes --no-private",
     "release:publish": "pnpm publish --recursive --tag latest",
     "prepare": "husky || true",
@@ -22,13 +20,19 @@
     "build:vue": "pnpm --filter @colelab/icons-vue run build",
     "generate:react": "pnpm --filter @colelab/icons-react run generate",
     "build:react": "pnpm --filter @colelab/icons-react run build",
-    "build": "pnpm build:core && pnpm build:react && pnpm build:vue",
-    "generate:all": "pnpm generate:core && pnpm generate:react && pnpm generate:vue",
+    "build": "pnpm build:core && concurrently -n react,vue -c cyan,magenta \"pnpm build:react\" \"pnpm build:vue\"",
     "start:react": "dumi dev",
     "start:vue": "vitepress dev docs-vue",
     "site:react": "dumi build",
     "site:vue": "vitepress build docs-vue",
-    "preview:vue": "vitepress preview docs-vue"
+    "preview:vue": "vitepress preview docs-vue",
+    "test:smoke": "node ./tests/smoke-check.mjs",
+    "test": "pnpm test:smoke",
+    "ci:check": "pnpm release:check",
+    "preview:react": "dumi preview",
+    "release:check": "pnpm generate && pnpm build && pnpm test",
+    "release:prepare": "pnpm release:version && pnpm build && pnpm test",
+    "release:ship": "pnpm release:check && pnpm release:prepare && pnpm release:publish"
   },
   "repository": {
     "type": "git",
@@ -88,7 +92,8 @@
     "vinyl": "catalog:",
     "vitepress": "^1.6.3",
     "walrus": "workspace:*",
-    "zx": "catalog:"
+    "zx": "catalog:",
+    "concurrently": "^9.1.2"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
@@ -97,5 +102,6 @@
     "*.ts?(x)": [
       "prettier --parser=typescript --write"
     ]
-  }
+  },
+  "version": "1.0.0"
 }

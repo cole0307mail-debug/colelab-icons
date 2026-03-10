@@ -12,7 +12,7 @@ const prodConfig = isProd
     })
   : defineConfig({});
 
-const base = '/sensoro-design-icons/';
+const base = '/colelab-icons/react/';
 
 export default defineConfig({
   base,
@@ -21,7 +21,7 @@ export default defineConfig({
     name: 'Icons',
     logo,
     socialLinks: {
-      github: 'https://github.com/sensoro/sensoro-design-icons',
+      github: 'https://github.com/cole0307mail-debug/colelab-icons',
     },
   },
   alias: {

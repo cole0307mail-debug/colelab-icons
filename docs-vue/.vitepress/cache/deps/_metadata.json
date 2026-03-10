@@ -1,0 +1,37 @@
+{
+  "hash": "9c47e4e1",
+  "configHash": "7e8bf1c9",
+  "lockfileHash": "99d201c2",
+  "browserHash": "4dcb63e2",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.5.29_typescript@5.5.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "97f8ad5a",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.7.9/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "a6606be2",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@12.8.2_typescript@5.5.4/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "670167b8",
+      "needsInterop": false
+    },
+    "@ant-design/colors": {
+      "src": "../../../../node_modules/.pnpm/@ant-design+colors@7.1.0/node_modules/@ant-design/colors/es/index.js",
+      "file": "@ant-design_colors.js",
+      "fileHash": "c02d2528",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ZN75ODBP": {
+      "file": "chunk-ZN75ODBP.js"
+    }
+  }
+}
