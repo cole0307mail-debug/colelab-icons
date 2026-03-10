@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "umi.css": "/colelab-icons/react/umi.0be76cec.css",
+    "umi.js": "/colelab-icons/react/umi.ce05bb4e.js",
+    "meta__docs.js": "/colelab-icons/react/meta__docs.47bfd0a3.async.js",
+    "nm__dumi__dist__client__pages__404.js": "/colelab-icons/react/nm__dumi__dist__client__pages__404.a96b610a.async.js",
+    "dumi__tmp-production__dumi__theme__ContextWrapper.js": "/colelab-icons/react/dumi__tmp-production__dumi__theme__ContextWrapper.fe187d42.async.js",
+    "nm__dumi__theme-default__layouts__DocLayout__index.js": "/colelab-icons/react/nm__dumi__theme-default__layouts__DocLayout__index.f61b528f.async.js",
+    "docs__docs__contribution-guide.md.js": "/colelab-icons/react/docs__docs__contribution-guide.md.400d9cc5.async.js",
+    "docs__docs__getting-started.md.js": "/colelab-icons/react/docs__docs__getting-started.md.dc750701.async.js",
+    "docs__icons.md.js": "/colelab-icons/react/docs__icons.md.a643d814.async.js",
+    "docs__index.md.js": "/colelab-icons/react/docs__index.md.aa5c2947.async.js",
+    "nm__dumi__dist__client__pages__Demo__index.js": "/colelab-icons/react/nm__dumi__dist__client__pages__Demo__index.c73110fe.async.js",
+    "demos.js": "/colelab-icons/react/demos.71b392f0.async.js"
+  }
+}
